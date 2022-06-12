@@ -28,6 +28,6 @@ void sieve() {
 	for (i=0;i<c;i++) printf("%d\n",primes[i]);
 }
 
-int main() {
+int main1() {
 	sieve();
 }

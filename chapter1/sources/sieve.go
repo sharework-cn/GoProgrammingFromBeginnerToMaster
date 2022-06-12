@@ -1,5 +1,7 @@
 package main
 
+import "C"
+
 // Send the sequence 2, 3, 4, ... to channel 'ch'.
 func Generate(ch chan<- int) {
 	for i := 2; ; i++ {
