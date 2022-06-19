@@ -2,4 +2,6 @@ go 1.18
 
 use (
     chapter1/sources
+    chapter3/sources/item16-demo/chapter3-demo1
+    chapter3/sources
 )
